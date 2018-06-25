@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basket</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="basket">
+		<div class="product__list">
+			<h2 class="product__list-title">Предложенные товары:</h2>
+			<div class="product__item">
+				<div class="product__img-box">
+					<img src="" alt="">
+				</div>
+				<h3 class="product__title">Лапти Вязанные</h2>
+				<div class="product__price" data-price="3500">Цена: 3 500</div>
+				<button class="product__btn-add">Добавить в корзину</button>
+			</div>
+
+			<div class="product__item">
+				<div class="product__img-box">
+					<img src="" alt="">
+				</div>
+				<h3 class="product__title">Домашние тапочки</h2>
+				<div class="product__price" data-price="1500">Цена: 1 500</div>
+				<button class="product__btn-add">Добавить в корзину</button>
+			</div>
+
+			<div class="product__item">
+				<div class="product__img-box">
+					<img src="" alt="">
+				</div>
+				<h3 class="product__title">Валенки</h2>
+				<div class="product__price" data-price="4000">Цена: 4 000</div>
+				<button class="product__btn-add">Добавить в корзину</button>
+			</div>
+
+			<div class="budget">
+				Ваш бюджет:
+				<span class="budget-number" data-number="15000">15 000</span>
+				руб
+			</div>
+		</div>
+
+		<div class="output">
+			<h2 class="product__output-title">Корзина:</h2>
+			<div id="list" class="output__list">
+				
+			</div>
+			<div class="output__total-price-box">Итого: <span class="output__total-price">0</span> руб</div>
+		</div>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>
